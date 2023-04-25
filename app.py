@@ -9,7 +9,7 @@ import re
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 save_path = os.path.join(basedir, 'bytecode.txt')
-UPLOAD_FOLDER = os.path.join(basedir, 'static\\uploads') 
+UPLOAD_FOLDER = os.path.join(basedir, 'static/uploads') 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] =\
         'sqlite:///' + os.path.join(basedir, 'register.db')
