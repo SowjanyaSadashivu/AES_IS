@@ -20,7 +20,6 @@ app.config['SECRET_KEY'] = 'gfahjsgfkag'
 
 
 db = SQLAlchemy(app)
-message_decode = ''
 
 class Register(db.Model):
     id = db.Column(db.Integer, primary_key=True)
